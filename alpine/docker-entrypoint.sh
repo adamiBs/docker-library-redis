@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-SETPRIV="/usr/bin/setpriv --reuid redis --regid redis --clear-groups"
+SETPRIV="/bin/setpriv --reuid redis --regid redis --clear-groups"
 IS_REDIS_SENTINEL=""
 IS_REDIS_SERVER=""
 CONFIG=""
