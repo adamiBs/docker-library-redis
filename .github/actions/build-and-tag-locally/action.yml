@@ -149,7 +149,7 @@ runs:
           exit 1
         fi
   
-    - name: Test Redis
+    - name: Test RedisBloom
       if: ${{ contains(fromJSON('["amd64", "arm64"]'), steps.platform.outputs.display_name) }}
       shell: bash
       run: |
